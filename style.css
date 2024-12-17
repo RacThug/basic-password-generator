@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #374151;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 550px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  background-color: #1f2937;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+
+.card h1 {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.card .titleWhite {
+  color: #fff;
+}
+.card .titleGreen {
+  color: #55f991;
+}
+
+.card .titleCaption {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.card button {
+  background-color: #10b981;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 35px;
+}
+
+.card button:hover {
+  background-color: #0d8b6a;
+}
+
+hr {
+  border: 1px solid #2f3e53;
+  margin: 0;
+}
+
+.passwords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.passwords p {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #273549;
+  border-radius: 6px;
+  width: 211px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #55f991;
+}
